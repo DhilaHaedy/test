@@ -1,0 +1,98 @@
+* {
+  font-family: Outfit;
+}
+
+body {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 600px;
+  background-color: rgb(255, 240, 220);
+  border-radius: 8px;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+select {
+  width: 100%;
+}
+
+.label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#slc-menu {
+  margin: 0 auto;
+  font-size: 15px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rad {
+  margin-top: 5px;
+}
+
+.Opt {
+  font-size: 13px;
+  font-weight: 500;
+  color: brown;
+}
+
+#ch-topps {
+  margin-top: 5px;
+}
+
+#textarea {
+  margin-top: 5px;
+  width: 100%;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+#submit {
+  font-size: 15px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border-color: white;
+  color: white;
+  background-color: cadetblue;
+}
+
+#submit:hover {
+  background-color: darkcyan;
+}
+
+#reset {
+  font-size: 15px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border-color: white;
+  color: white;
+  background-color: chocolate;
+}
+
+#reset:hover {
+  background-color: brown;
+}

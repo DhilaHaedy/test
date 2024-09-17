@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 1 Prak WEB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Input Your Order</h1>
+    </header>
+    <div class="container">
+      <form action="" id="form">
+        <div id="menu">
+          <label for="menu" class="label">Menu</label>
+          <select name="menu" id="slc-menu">
+            <option value=" "></option>
+            <option value="Americano">Americano</option>
+            <option value="Mochaccino">Mochaccino</option>
+            <option value="Hazelnut Latte">Hazelnut Latte</option>
+            <option value="Vanilla Latte">Vanilla Latte</option>
+            <option value="Salted Caramel">Salted Caramel</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="Hot-Ice" class="label">Hot/Ice</label>
+          <div class="rad">
+            <input type="radio" name="temp" value="Hot" /> Hot
+            <input type="radio" name="temp" value="Ice" /> ice
+          </div>
+        </div>
+        <br />
+        <div>
+          <label for="size" class="label">Size</label>
+          <div class="rad">
+            <input type="radio" name="ukuran" value="Regular" /> Regular
+            <input type="radio" name="ukuran" value="Large" /> Large
+          </div>
+        </div>
+        <br />
+        <div>
+          <label for="sweet" class="label">Sweetness Level</label>
+          <div class="rad">
+            <input type="radio" name="manis" value="Normal-Sweet" /> Normal
+            Sweet <input type="radio" name="manis" value="Less-Sweet" /> Less
+            Sweet
+          </div>
+        </div>
+        <br />
+        <div>
+          <label for="dairy" class="label"
+            >Dairy <span class="Opt">Optional</span></label
+          >
+          <div class="rad">
+            <input type="radio" name="milk" value="Milk" /> Milk
+            <input type="radio" name="milk" value="Oat-Milk" /> Oat Milk
+            <input type="radio" name="milk" value="Almond-Milk" /> Almond Milk
+          </div>
+        </div>
+        <br />
+        <div>
+          <label for="Topping" class="label"
+            >Topping <span class="Opt">Optional</span></label
+          >
+          <div id="ch-topps">
+            <input type="checkbox" value="Caramel-Sauce" /> Caramel Sauce
+            <input type="checkbox" value="Caramel-Crumble" /> Caramel Crumble
+            <input type="checkbox" value="Choco-Granola" /> Choco Granola
+            <input type="checkbox" value="Sea-Salt-Cream" /> Sea Salt Cream
+          </div>
+        </div>
+        <br />
+        <div>
+          <label for="note" class="label">Note</label>
+          <textarea
+            name="textarea"
+            id="textarea"
+            placeholder="Write your additional note here"
+          ></textarea>
+        </div>
+        <br />
+        <div class="btn">
+          <input type="submit" name="submit" id="submit" />
+          <input type="reset" name="reset" id="reset" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
